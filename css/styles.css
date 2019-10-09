@@ -52,6 +52,12 @@ padding: 256px 0;
   font-size: 1rem;
   font-weight: 300;
   color: rgb(57,69,75);
+}
+.nav-link2{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(57,69,75);
   width: max-content;
 }
 
