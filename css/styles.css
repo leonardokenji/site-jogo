@@ -14,10 +14,24 @@ header p, h3 {
   text-align: center;
 }
 
+h3{
+  color: black;
+}
+
+.col{
+  padding: 15px;
+  text-align: left;
+}
+
 
 /* classes */
 .container{
   padding: 2% 5% 1%;
+}
+
+.formulario{
+  width:100%;
+  padding: 10% 15%;
 }
 .imgg{
 margin-left: 100px;
@@ -67,6 +81,12 @@ padding: 15% 5%;
 .row{
   margin-right: 0;
   padding: 5% 3%;
+}
+
+form{
+  float: none;
+    margin: 0 auto; 
+    padding: 3% 5%;
 }
 
 .card-row{
