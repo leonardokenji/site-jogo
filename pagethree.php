@@ -17,14 +17,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Custom fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand|Roboto:300,400,700&display=swap" rel="stylesheet">
 
     <!-- Custom styles -->
     <link rel="stylesheet" href="css/styles.css">
 
   </head>
 
-		<body>
+		<body style="background-color: #f3f3f3;">
 
       <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: rgba(255, 255, 255, 0.95);">
           <a class = "navbar-brand" href="#">Nome do site</a>
@@ -63,29 +63,43 @@
         </div>
       </header>
 
-      <div class="container">
-  			<div class="row">
-  				<h3> Novo Cadastro</h3>
-  				<form action="php/create.php" method="POST">
-  					<div class="col">
-  						<input type="text" name="nome" id="nome">
-  						<label for="nome">Nome</label>
-  					</div>
+      <!--editar o formulario-->
+						<div class="signup-form">
+					    <form action="php/create.php" method="POST" class="form-horizontal">
 
-  					<div class="col">
-  						<input type="text" name="email" id="email">
-  						<label for="email">Email</label>
-  					</div>
+								<div class="col-xs-8 col-xs-offset-4">
+									<h2>Cadastro</h2>
+								</div>
 
-  					<div>
-  						<input type="text" name="CRM" id="CRM">
-  						<label for="CRM">CRM</label>
-  					</div>
+					      <div class="form-group">
+									<label class="control-label col-xs-4">Nome completo</label>
+									<div class="col-xs-8">
+					           <input type="text" class="form-control" name="nome" id="nome" required="required">
+					        </div>
+								</div>
 
-  					<button type="submit" name="btn-cadastrar" class="btn">Cadastrar</button>
-  				</form>
-  			</div>
-      </div>
+								<div class="form-group">
+									<label class="control-label col-xs-4">Email</label>
+									<div class="col-xs-8">
+						          <input type="email" class="form-control" name="email" id="email" required="required">
+						      </div>
+						    </div>
+
+								<div class="form-group">
+									<label class="control-label col-xs-4">CRM</label>
+									<div class="col-xs-8">
+						          <input type="text" class="form-control" name="CRM" id="CRM">
+						      </div>
+						    </div>
+
+								<div class="form-group">
+									<div class="col-xs-8 col-xs-offset-4">
+										<button type="submit" class="btn btn-primary btn-lg">Cadastrar</button>
+									</div>
+								</div>
+
+					    </form>
+					</div>
 
       <footer>
         <nav>
