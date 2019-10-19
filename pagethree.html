@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html>
   <head>
-  <meta charset="utf-8">
+		<meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0">
 
     <title>Nome da pagina 3</title>
 
@@ -25,6 +25,7 @@
   </head>
 
 		<body style="background-color: #f3f3f3;">
+			<div id="container">
 
       <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: rgba(255, 255, 255, 0.95);">
           <a class = "navbar-brand" href="#">Nome do site</a>
@@ -101,34 +102,36 @@
 					    </form>
 					</div>
 
-      <footer>
-        <nav>
-          <ul class="icons">
+					<footer>
+						<nav>
+							<ul class="icons">
 
-            <li>
-              <a class="fab fa-facebook-f" href="https://facebook.com/"></a>
-            </li>
+								<li>
+									<a class="fab fa-facebook-f" href="https://facebook.com/"></a>
+								</li>
 
-            <li >
-              <a class="fab fa-twitter" href="https://twitter.com/"></a>
-            </li>
+								<li >
+									<a class="fab fa-twitter" href="https://twitter.com/"></a>
+								</li>
 
-            <li>
-              <a class="fab fa-instagram" href="https://instagram.com/"></a>
-            </li>
+								<li>
+									<a class="fab fa-instagram" href="https://instagram.com/"></a>
+								</li>
 
-            <li>
-              <a class="fab fa-linkedin-in" href="https://linkedin.com/"></a>
-            </li>
+								<li>
+									<a class="fab fa-linkedin-in" href="https://linkedin.com/"></a>
+								</li>
 
-          </ul>
+							</ul>
 
-          <p class="copyright-menu" >© 2019 copyright.</p>
+							<p class="copyright-menu" >© 2019 copyright.</p>
 
-        </nav>
+						</nav>
 
-      </footer>
+					</footer>
 
+
+		</div>
 		</body>
 
 	</html>
